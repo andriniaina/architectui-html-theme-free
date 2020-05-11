@@ -1,0 +1,30 @@
+@font-face {
+	font-family: dotBCG-Icons;
+	src: url(../fonts/dotBCG-Icons.eot?4vybr5);
+	src: url(../fonts/dotBCG-Icons.eot?4vybr5#iefix) format("embedded-opentype"), url(../fonts/dotBCG-Icons.ttf?4vybr5) format("truetype"), url(../fonts/dotBCG-Icons.woff?4vybr5) format("woff"), url(../fonts/dotBCG-Icons.svg?4vybr5#dotBCG-Icons) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
+.logo-src,
+[class*=" bcgicon-"],
+[class^=bcgicon-] {
+	font-family: dotBCG-Icons!important;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.bcgicon-nav-menu-bcg-logo:before,
+.logo-src:before
+{
+	font-size: x-large;
+	content: "\e623";
+}

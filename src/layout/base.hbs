@@ -20,11 +20,18 @@
     =========================================================
     * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
     -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link href="./assets/fonts/bcg-fonts.1.css" rel="stylesheet">
+    <link href="./assets/fonts/bcg-fonts.2.css" rel="stylesheet">
+    <link href="./assets/fonts/bcg-icons.css" rel="stylesheet">
 </head>
 <body>
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         {{> AppHeader/header }}
+        {{#if isProduction}}
+        {{else}}
         {{> ThemeOptions/theme-options }}
+        {{/if}}
         <div class="app-main">
             {{> @partial-block }}
         </div>
