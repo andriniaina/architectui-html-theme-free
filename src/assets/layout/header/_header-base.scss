@@ -68,9 +68,14 @@
   transition: width .2s;
 
   .logo-src {
-    height: $logo-height;
-    width: $logo-width;
-    background: url('utils/images/logo-inverse.png');
+    /*
+      see bcg-icons.css instead
+    */
+    color: white;
+    font-size: x-large;
+  }
+  .logo-src:before {
+    content: "\e623";
   }
 }
 

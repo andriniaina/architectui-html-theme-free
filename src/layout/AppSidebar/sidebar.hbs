@@ -10,6 +10,8 @@
                         Dashboard Example 1
                     </a>
                 </li>
+        {{#if isProduction}}
+        {{else}}
                 <li class="app-sidebar__heading">UI Components</li>
                 <li
                     {{#if elements-buttons-standard}} class="mm-active"{{/if}}
@@ -232,6 +234,7 @@
                         Upgrade to PRO
                     </a>
                 </li>
+        {{/if}}
             </ul>
         </div>
     </div>
