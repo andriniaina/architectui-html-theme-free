@@ -70,7 +70,7 @@
 .card-header,
 .card-title {
   text-transform: uppercase;
-  color: rgba(darken($primary, 40%), .7);
+  color: rgba(lighten($primary, 40%), .7);
   font-weight: bold;
   font-size: $font-size-base;
 }
